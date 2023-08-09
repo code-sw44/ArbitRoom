@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 115px auto 115px;
+}
+
+.footer__nav {
+    padding: 30px 0 40px 0;
+}
+
+.footer__nav-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #868686;
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
